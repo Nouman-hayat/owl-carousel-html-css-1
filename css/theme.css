@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat";
+}
+body p {
+	font-size: 20px;
+}
+body h1 {
+	font-size: 40px;
+	text-align: center;
+}
+.hero-slider-wrapper {
+	position: relative;
+}
+.hero-slider-wrapper .owl-carousel .owl-nav button.owl-prev {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	background-color: #e0e0e0;
+	font-size: 30px;
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+	cursor: pointer;
+}
+.hero-slider-wrapper .owl-carousel .owl-nav button.owl-prev span {
+	padding: 10px 10px 12px 10px;
+}
+.hero-slider-wrapper .owl-carousel .owl-nav button.owl-next {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	background-color: #e0e0e0;
+	font-size: 30px;
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+}
+.hero-slider-wrapper .owl-carousel .owl-nav button.owl-next span {
+	padding: 10px 10px 12px 10px;
+}
+.hero-slider-wrapper .owl-theme .owl-nav [class*="owl-"]:hover {
+	color: black;
+}
